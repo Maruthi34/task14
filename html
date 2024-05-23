@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+        .card img {
+            width: 100%;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="image" alt="Image">
+        <div class="card-content">
+            <h3>Card Title</h3>
+            <p>Some description about this card.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="image" alt="Image">
+        <div class="card-content">
+            <h3>Card Title</h3>
+            <p>Some description about this card.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="image" alt="Image">
+        <div class="card-content">
+            <h3>Card Title</h3>
+            <p>Some description about this card.</p>
+        </div>
+    </div>
+</body>
+</html>
